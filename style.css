@@ -1,0 +1,63 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Outfit:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color:  hsl(213, 23%, 72%);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem;
+}   
+
+.imagem{
+    border: 1px solid #3e52a327;
+    background-color: #fff;
+    width: 350px;
+    height: 450px;
+    border-radius: 15px;
+}
+
+img{
+    padding: 10px;
+    border-radius: 25px;
+    height: 70%;
+    width: 90%;    
+}
+
+.title {
+    color: #1f3251;
+    font-weight: 700;
+}
+
+.imagem p{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 8px;
+}
+
+.imagem .paragraph {
+    color: hsl(220, 15%, 55%);
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.attribution p{
+    margin: 10px auto;
+    font-size: 11px;
+}
+
+.attribution a{
+    color:  hsl(228, 45%, 44%);
+}
